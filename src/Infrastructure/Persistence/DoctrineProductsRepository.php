@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Infrastructure\Persistence;
+namespace Src\Infrastructure\Persistence;
 
-use App\Domain\Products\Product;
-use App\Application\Repositories\ProductsRepository;
+use Src\Domain\Products\Product;
+use Src\Application\Repositories\ProductsRepository;
 use Doctrine\ORM\EntityManagerInterface;
 
 class DoctrineProductsRepository implements ProductsRepository
@@ -31,7 +31,7 @@ class DoctrineProductsRepository implements ProductsRepository
     {
         $query = $this->em->createQueryBuilder();
         $query->select('p.id, p.name, p.value')
-            ->from('App\Domain\Products\Product', 'p')
+            ->from('Src\Domain\Products\Product', 'p')
             ->where($query->expr()->like('p.name', '?1'))
         ->setParameter(1, $name);
 

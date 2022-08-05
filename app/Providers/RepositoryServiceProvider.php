@@ -2,8 +2,8 @@
 
 namespace App\Providers;
 
-use App\Application\Repositories\ProductsRepository;
-use App\Infrastructure\Persistence\DoctrineProductsRepository;
+use Src\Application\Repositories\ProductsRepository;
+use Src\Infrastructure\Persistence\DoctrineProductsRepository;
 use Illuminate\Support\ServiceProvider;
 
 class RepositoryServiceProvider extends ServiceProvider

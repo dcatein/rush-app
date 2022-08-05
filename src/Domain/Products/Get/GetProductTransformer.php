@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Domain\Products\Get;
+namespace Src\Domain\Products\Get;
 
 use Illuminate\Http\JsonResponse;
 

@@ -2,12 +2,11 @@
 
 namespace App\Http\Controllers\Products;
 
-use App\Domain\Products\Get\GetProductsByName;
-use App\Domain\Products\Get\GetProductTransformer;
+use Src\Domain\Products\Get\GetProductsByName;
+use Src\Domain\Products\Get\GetProductTransformer;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\GetProductRequest;
 use Illuminate\Http\JsonResponse;
-use Illuminate\Http\Response;
 
 class GetProductsController extends Controller
 {

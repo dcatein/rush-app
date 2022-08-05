@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers\Products;
 
-use App\Domain\Products\Create\CreateProduct;
-use App\Domain\Products\Create\CreateProductTransformer;
-use App\Domain\Products\Product;
+use Src\Domain\Products\Create\CreateProduct;
+use Src\Domain\Products\Create\CreateProductTransformer;
+use Src\Domain\Products\Product;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\CreateProductRequest;
 use Illuminate\Http\JsonResponse;

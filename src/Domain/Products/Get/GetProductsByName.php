@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Domain\Products\Get;
+namespace Src\Domain\Products\Get;
 
-use App\Application\Repositories\ProductsRepository;
+use Src\Application\Repositories\ProductsRepository;
 
 class GetProductsByName
 {

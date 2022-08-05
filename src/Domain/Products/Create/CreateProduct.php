@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Domain\Products\Create;
+namespace Src\Domain\Products\Create;
 
-use App\Domain\Products\Product;
-use App\Application\Repositories\ProductsRepository;
+use Src\Domain\Products\Product;
+use Src\Application\Repositories\ProductsRepository;
 
 class CreateProduct
 {

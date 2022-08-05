@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Application\Repositories;
+namespace Src\Application\Repositories;
 
-use App\Domain\Products\Product;
+use Src\Domain\Products\Product;
 
 interface ProductsRepository
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Domain\Products\Create;
+namespace Src\Domain\Products\Create;
 
-use App\Domain\Products\Product;
+use Src\Domain\Products\Product;
 use Illuminate\Http\JsonResponse;
 
 class CreateProductTransformer
